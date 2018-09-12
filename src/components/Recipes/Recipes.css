@@ -7,9 +7,10 @@
     display: inline-block;
     justify-self: center;
     align-self: center;
+    position: relative;
     width: 30%;
     margin: 20px;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
     border-radius: 5px;
     box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
     text-align: left;
@@ -29,7 +30,8 @@
   
 .t-recipes__title {
     font-family: var(--main-input-text);
-    color: var(--main-color);
+    /* color: #e38d84; */
+    color: salmon;
     text-transform: uppercase;
     font-size: 1.1rem;
     padding: 1.8rem 0 0.2rem 0;
@@ -57,10 +59,12 @@
 }
 
 .recipes__button {
-    border: solid 2px var(--main-color);
+    position: absolute;
+    left: 65%;
+    border: solid 1px var(--main-color);
     background: transparent;
     padding: 0.4rem 0.6rem;
-    margin: 0 0.2rem;
+    margin-bottom: 10px;
     border-radius: 1px;
     margin-left: 0.7rem;
 }

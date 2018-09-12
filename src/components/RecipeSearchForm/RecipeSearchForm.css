@@ -36,7 +36,7 @@
 
 .input-form__button {
     transition: 0.2s;
-    border: solid 2px var(--main-color);
+    border: solid 1px var(--main-color);
     background: transparent;
     padding: 0.4rem 0.6rem;
     margin: 0 0.2rem;
