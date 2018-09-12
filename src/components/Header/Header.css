@@ -1,5 +1,9 @@
+:root {
+    --main-color: rgb(50, 61, 74);
+}
+
 .App__header {
-    background-color: rgb(50, 61, 74);
+    background-color: var(--main-color);
     height: 75px;
     padding: 10px;
 }
