@@ -24,11 +24,11 @@
     height: 200px;
 }
 
-.recipes__text {
+.recipes__card-text {
     margin-left: 15px;
 }
   
-.t-recipes__title {
+.t-recipes__card-title {
     font-family: var(--main-input-text);
     color: #fa8072;
     text-transform: uppercase;
@@ -36,7 +36,7 @@
     padding: 1rem 0 0.2rem 0;
 }
   
-.t-recipes__subtitle {
+.t-recipes__card-subtitle {
     font-family: var(--main-input-text);
     text-transform: uppercase;
     font-weight: 600;
@@ -44,7 +44,7 @@
     letter-spacing: 2px;
 }
   
-.t-recipes__subtitle-span {
+.t-recipes__card-subtitle-span {
     font-family: var(--main-input-text);
     text-transform: none;
     font-weight: 400;
@@ -52,17 +52,19 @@
     letter-spacing: 1px;
 }
 
-.t-recipes__button {
+.t-recipes__card-button {
     font-family: var(--main-input-text);
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
+    color: var(--main-color);
+    text-decoration: none;
 }
 
-.recipes__button {
+.recipes__card-button {
     position: absolute;
-    left: 65%;
-    padding: 0.4rem 0.6rem;
+    left: 70%;
+    padding: 0.4rem 1rem;
     margin-top: 1rem;
     margin-bottom: 10px;
     margin-left: 0.7rem;
@@ -71,9 +73,10 @@
     background: transparent;
 }
 
-.recipes__button:hover {
+.recipes__card-button:hover {
     transition: 0.2s;
     background-color: var(--main-color);
     color: rgb(255, 255, 255);
     font-weight: 300;
+    text-decoration: none;
 }
