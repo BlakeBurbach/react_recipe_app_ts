@@ -9,7 +9,7 @@
     font-weight: 300;
 }
 
-.App__input-form__input {
+.input-form__input {
     border: none;
     border-bottom: 1px solid lightgray;
     margin-right: 5px;
@@ -19,13 +19,13 @@
     font-family: var(--main-input-text);
 }
 
-.App__input-form__button {
+.input-form__button {
     padding: 5px;
     transition: 0.2s;
     border: none;
 }
 
-.App__input-form__button:hover {
+.input-form__button:hover {
     transition: 0.2s;
     background-color: var(--main-color);
     color: rgb(255, 255, 255);
