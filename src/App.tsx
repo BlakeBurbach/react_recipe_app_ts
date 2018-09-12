@@ -1,13 +1,21 @@
 import * as React from 'react';
 import './App.css';
 
+import Header from './components/Header/Header';
+import RecipeSearchForm from './components/RecipeSearchForm/RecipeSearchForm';
+
 class App extends React.Component {
+
+  public getRecipes = async (event: any) => {
+    event.preventDefault();
+    console.log('getRecipes working');
+  }
+
   public render() {
     return (
       <div className="App">
-        <header className="App__header">
-          <h1 className="t-App__title">Recipe Search</h1>
-        </header>
+        <Header />
+        <RecipeSearchForm getRecipes={this.getRecipes}/>
       </div>
     );
   }
