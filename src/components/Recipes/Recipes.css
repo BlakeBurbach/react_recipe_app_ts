@@ -1,15 +1,8 @@
-.recipe_buttons {
-    border: solid 2px #3f3f3f;
-    background: transparent;
-    padding: 0.4rem 0.6rem;
-    margin: 0 0.2rem;
-    border-radius: 1px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-left: 0.7rem;
+:root {
+    --main-input-text: Arial, Helvetica, sans-serif;
+    --main-color: rgb(50, 61, 74);
 }
-  
+
 .recipes__card {
     display: inline-block;
     justify-self: center;
@@ -23,13 +16,20 @@
     overflow: hidden;
     background-color: #fff;
 }
-  
+
+.recipes__card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
 .recipes__text {
     margin-left: 15px;
 }
   
 .t-recipes__title {
-    color: #3f3f3f;
+    font-family: var(--main-input-text);
+    color: var(--main-color);
     text-transform: uppercase;
     font-size: 1.1rem;
     padding: 1.8rem 0 0.2rem 0;
@@ -42,15 +42,32 @@
     letter-spacing: 2px;
 }
   
-.t-recipes__subtitle span {
+.t-recipes__subtitle-span {
     text-transform: none;
     font-weight: 400;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
 
-.recipes__img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
+.t-recipes__button {
+    font-family: var(--main-input-text);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.recipes__button {
+    border: solid 2px var(--main-color);
+    background: transparent;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0.2rem;
+    border-radius: 1px;
+    margin-left: 0.7rem;
+}
+
+.recipes__button:hover {
+    transition: 0.2s;
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
 }

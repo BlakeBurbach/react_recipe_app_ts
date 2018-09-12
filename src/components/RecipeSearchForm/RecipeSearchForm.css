@@ -3,13 +3,25 @@
     --main-color: rgb(50, 61, 74);
 }
 
+.App__input-form {
+    margin-bottom: 2rem;
+}
+
 .t-input-label {
     font-family: var(--main-input-text);
     font-size: 12px;
     font-weight: 300;
 }
 
+.t-input-text {
+    font-family: var(--main-input-text);
+    font-size: 14px;
+    font-weight: 300;
+}
+
 .input-form__input {
+    background: transparent;
+    padding: 10px 10px 5px 10px;
     border: none;
     border-bottom: 1px solid lightgray;
     margin-right: 5px;
@@ -17,16 +29,24 @@
 
 .t-form-button {
     font-family: var(--main-input-text);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .input-form__button {
-    padding: 5px;
     transition: 0.2s;
-    border: none;
+    border: solid 2px var(--main-color);
+    background: transparent;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0.2rem;
+    border-radius: 1px;
+    margin-left: 0.7rem;
 }
 
 .input-form__button:hover {
     transition: 0.2s;
     background-color: var(--main-color);
     color: rgb(255, 255, 255);
+    font-weight: 300;
 }
