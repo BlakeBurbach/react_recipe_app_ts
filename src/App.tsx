@@ -17,7 +17,7 @@ class App extends React.Component {
     event.preventDefault();
     // value from text input
     const RecipeName = event.target.RecipeName.value;
-    const API_CALL = await fetch(`https://www.food2fork.com/api/search?key=${API_KEY}&q=${RecipeName}&count=10`);
+    const API_CALL = await fetch(`https://www.food2fork.com/api/search?key=${API_KEY}&q=${RecipeName}&count=12`);
     const data = await API_CALL.json();
     this.setState({
       recipes: data.recipes

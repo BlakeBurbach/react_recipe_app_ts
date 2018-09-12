@@ -1,0 +1,56 @@
+.recipe_buttons {
+    border: solid 2px #3f3f3f;
+    background: transparent;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0.2rem;
+    border-radius: 1px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 0.7rem;
+}
+  
+.recipes__card {
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    width: 30%;
+    margin: 20px;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+    text-align: left;
+    overflow: hidden;
+    background-color: #fff;
+}
+  
+.recipes__text {
+    margin-left: 15px;
+}
+  
+.t-recipes__title {
+    color: #3f3f3f;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: 1.8rem 0 0.2rem 0;
+}
+  
+.t-recipes__subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+  
+.t-recipes__subtitle span {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.recipes__img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
