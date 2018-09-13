@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Recipes.css';
 
 interface IRecipesProps {
-    recipes: string[]
+    recipes: string[];
 };
 
 const Recipes: React.SFC<IRecipesProps> = props => (
