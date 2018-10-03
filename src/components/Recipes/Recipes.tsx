@@ -18,7 +18,13 @@ const Recipes: React.SFC<IRecipesProps> = props => (
                     </p>
                     <p className="t-recipes__card-subtitle recipes__card-text">Publisher: <span className="t-recipes__card-subtitle-span recipes__card-text">{recipe.publisher}</span>
                     </p>
-                    <Link className="t-recipes__card-button recipes__card-button" to={{ pathname: `/recipe/${recipe.recipe_id}` }}>
+                    <Link className="t-recipes__card-button recipes__card-button"
+                     to={{ 
+                         pathname: `/recipe/${recipe.recipe_id}`,
+                         state: {
+                             recipe: recipe.title
+                         }
+                         }}>
                         View
                     </Link>
                 </div>
